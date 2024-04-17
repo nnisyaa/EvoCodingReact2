@@ -4,9 +4,14 @@ class Navbar extends Component{
     render(){
         return(
             <>
+            <div className="bkgimg">
             <nav>
-                <div></div>
-                <ul>
+                <div>
+                    <img className="logo" src="" alt="" />
+                    <h2>Directone</h2>
+                    <p>DIRECTORY AND LISTENING</p>
+                </div>
+                <ul className="navList">
                     <li>HOME</li>
                     <li>ABOUT</li>
                     <li>LISTING</li>
@@ -17,6 +22,11 @@ class Navbar extends Component{
                     <p>+ADD LISTING</p>
                 </button>
             </nav>
+            <div className="header">
+            <h1><span>Let's Explore Your </span><span className="awersome">Awesome City</span></h1>
+            <p>Find great places to stay, eat, shop, or visit from local experts.</p>
+            </div>
+            </div>
             </>
         )
     }
