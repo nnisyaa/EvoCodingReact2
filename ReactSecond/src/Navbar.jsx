@@ -26,6 +26,23 @@ class Navbar extends Component{
             <h1><span>Let's Explore Your </span><span className="awersome">Awesome City</span></h1>
             <p>Find great places to stay, eat, shop, or visit from local experts.</p>
             </div>
+
+            <div className="form">
+                <form action="">
+                    <input placeholder="What are you looking for?" type="text" />
+                    <input placeholder="Search Location" type="text" />
+                    <input placeholder="All categories" type="text" />
+                    <button>
+                        <img src="" alt="" />
+                        <p>Search</p>
+                    </button>
+                </form>
+            </div>
+
+
+
+
+
             </div>
             </>
         )

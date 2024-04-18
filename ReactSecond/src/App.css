@@ -110,3 +110,30 @@ nav>button{
     width: 100px;
     height: 100px;
 }
+.second-line{
+    padding-top: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200pxx;
+}
+form>input{
+    width: 214px;
+    height: 53px;
+    background-color: white;
+    border-style: none;
+
+}
+form>button{
+    width: 214px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 65, 77);
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+}
